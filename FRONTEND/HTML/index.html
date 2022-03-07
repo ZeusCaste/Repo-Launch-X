@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina cliente</title>
+</head>
+<body style="background-color:#E0C8C3;">
+    <h1><img src="./logo.PNG" alt="logo" width="250px" ALIGN=MIDDLE>      Bienvenido!</h1>
+
+    <h2 align="center">Aqui usted puede seleccionar y armar su pastel a su gusto</h2><br>
+    <form action="./pedido.html" id="form1" method="get">
+        <h2>Seleccione el sabor o sabores de su pastel</h2><br>
+        <input type="checkbox" id="topping1" name="topping1" value="Fresa">
+        <label for="topping1">Fresa $50</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Chocolate">
+        <label for="topping2">Chocolate $50</label><br>
+        <input type="checkbox" id="topping3" name="topping3" value="Durazno">
+        <label for="topping3">Durazno $80</label><br>
+        <input type="checkbox" id="topping4" name="topping4" value="Manzana">
+        <label for="topping4">Manzana 150</label><br>
+        <input type="checkbox" id="topping5" name="topping5" value="Frambuesa">
+        <label for="topping5">Frambuesa $100</label><br><br>
+        <hr>
+        <h2>Seleccione el adorno o adornos de su pastel</h2><br>
+        <input type="checkbox" id="adorno1" name="adorno1" value="Flor">
+        <label for="adorno1">Flor de chantilly $25</label><br>
+        <input type="checkbox" id="adorno2" name="adorno2" value="Duraznos">
+        <label for="adorno2">Duraznos en almibar $30</label><br>
+        <input type="checkbox" id="adorno3" name="adorno3" value="FresasPartidas">
+        <label for="adorno3">Fresas partidas $45</label><br>
+        <input type="checkbox" id="adorno4" name="adorno4" value="FresasEnteras">
+        <label for="adorno4">Fresas enteras $35</label><br>
+        <input type="checkbox" id="adorno5" name="adorno5" value="ChispasChocolate">
+        <label for="adorno5">Chispas de chocolate $20</label><br><br>
+        <hr>
+        <h2>Pisos (tamaño) de pastel</h2><br>
+        <input type="radio" id="uno" name="tamanio" value="Chico">
+        <label for="chico">1 piso (chico) $100</label><br>
+        <input type="radio" id="dos" name="tamanio" value="Mediano">
+        <label for="mediano">2 pisos (mediano) $150</label><br>
+        <input type="radio" id="tres" name="tamanio" value="Grande">
+        <label for="grande">3 pisos (grande) $200</label><br><br>
+        <hr>
+        <h2>Por favor ingrese sus datos de contacto, así como una breve descripción sobre los detalles de su pedido</h2>
+        <label for="apellido">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="correo1">Correo Electrónico</label><br>
+        <input type="email" id="correo1" name="correo1"><br><br>
+        <label for="tel1">Número de Teléfono</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+        <label for="desc">Descripción</label><br>
+        <textarea id="desc" name="desc"></textarea><br><br>
+        <hr>
+        <input type="submit" name="enviar" value="Enviar Pedido">
+    </form>
+    <hr>
+    
+    <footer>
+        <ul>
+            <p>Dirección:<br>Cuadrante de la soledad 15, Col. Centro, CP. 06700, CDMX</p>
+        </ul>
+        <ul>
+            <p>Contacto:<br>551122334455</p>
+        </ul>
+        <ul>
+            <p>Horarios de atención:<br>Lunes - Viernes: 9 hrs a 19 hrs<br>Sábados y Domingos: 9 hrs a 15 hrs</p>
+        </ul>
+    </footer>
+</body>
+</html>
